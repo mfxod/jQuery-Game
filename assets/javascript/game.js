@@ -73,6 +73,8 @@ function showLosses() {
     $("#losses").text(losses);
 }
 
+
+
 // ----- PROCESS -----
 
 // get game ready
