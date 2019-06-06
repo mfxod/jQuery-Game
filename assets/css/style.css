@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 768px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Source Code Pro Black', monospace;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    line-height: 24px;
+    padding: 0 3rem 1rem;
+    /* text-align: center; */
+}
+
+.wins-item,
+.losses-item,
+.score-container {
+    font-size: 2rem;
+}
+
+#target-number, #score {
+    font-size: 4rem;
+}
+
+.header-item {
+    text-align: center;
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+.instructions-item {
+    flex-basis: 75%;
+}
+
+.wins-item, .losses-item {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.score-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 3rem 0 2rem 0;
+    padding: 1rem 0;
+    border-top: 2px solid salmon;
+    border-bottom: 2px solid salmon;
+}
+
+.target-item {
+    flex-basis: 50%;
+}
+
+.score-item {
+    flex-basis: 50%;
+}
+
+.crystal-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.crystal-item {
+    padding: 0 2rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+    .main-container {
+        width: 100%;
+    }   
+}
